@@ -3,11 +3,11 @@
 import re
 from os.path import isdir, dirname, join as path_join
 from git import Repo, InvalidGitRepositoryError, GitCommandError
-from engine import __file__ as base_path
+from engine import __file__ as engine_base_path
 from urllib.parse import urlparse, urlunparse
 
 # Base directory for all cloned repositories is "[main module root directory]/repos/".
-clone_root_dir = path_join(dirname(base_path), "repos")
+clone_root_dir = path_join(dirname(engine_base_path), "repos")
 
 
 class RepoInfo:
