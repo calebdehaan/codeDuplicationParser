@@ -7,3 +7,4 @@ web/credentials.py
 clones_*.json
 qa/*.err
 qa/*.log
+.pytest_cache/
