@@ -10,3 +10,5 @@ fastlog
 flask
 # Web UI database
 easy-postgres
+# Unit test framework
+pytest
